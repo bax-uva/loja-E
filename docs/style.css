@@ -18,7 +18,8 @@ h3 {font-size: 1rem;}
 h2, h3, h5 {font-weight:100;}
 p {font-family:'Slabo 27px', serif;  font-size:1rem;font-weight: 100;}
 /*header*/
-header {max-height:25%; width:50%; margin:auto; display:flex; flex-direction:row; align-items:center; justify-content:space-around; padding-top:2em;}
+header {max-height:20%; max-width:60%; margin:auto; display:flex; flex-direction:row; align-items:center; justify-content:space-around; padding-top:2em;}
+logo {padding: 0.3em;}
 /*section*/
 section {display:flex; flex-direction: column; background-color:white; color:black; padding-top:2em; overflow:auto;}
 section #contato {font-family:'Slabo 27px', serif; font-size: 1.3em; text-align: center; margin: 1em;transform: rotate(-90deg);transform-origin: left top 0;color:rgba(255,0,30, 1); position:fixed; opacity:0.7}
@@ -26,9 +27,10 @@ section #contato {font-family:'Slabo 27px', serif; font-size: 1.3em; text-align:
 /*article*/
 article {width:80%; margin:auto; display:flex; flex-direction:row; align-items: flex-start; height: auto; padding:1em; min-width:250px;}
 .box {border-top:0.5px solid gray;}
-.texto {width:30%; text-align:right; padding-right:1em; display:flex; flex-direction:column; align-items: stretch;}
-.titulo {background-color:rgba(255,0,0, 0.4);}
-.pic {width:70%; opacity:1;}
+.texto {width:40%; text-align:right; padding-right:0.5em; display:flex; flex-direction:column; align-items: stretch;}
+.titulo {background-color:rgba(255,0,0, 0.4);line-height: 1.4em; padding:0.2em;}
+.detalhes {padding: 0.2em;}
+.pic {width:60%; opacity:1;}
 /*footer*/
 footer {display:flex; flex-direction: column; justify-content:center; margin:1em;}
 /*pages*/
@@ -42,8 +44,10 @@ footer {display:flex; flex-direction: column; justify-content:center; margin:1em
 /*1stBP*/
 @media screen and (min-width:500px)
 {
-  h3 {font-size: 1rem;}
+  h1 {font-size:2em; font-weight: 100;}
+  h3 {font-size:1rem;}
   .box {border-top:none;}
+  header {max-height:30%;}
 }
 /*2ndBP*/
 @media screen and (min-width:650px)
@@ -52,6 +56,7 @@ footer {display:flex; flex-direction: column; justify-content:center; margin:1em
   article {flex-direction:column; align-items:stretch; border-top:none; border-right:0.5px solid gray;width: 100%; height:auto;}
   .texto {width:100%;}
   .pic {width:100%; margin-top:3em;}
+  header {max-width:30%;}
 }
 
 
