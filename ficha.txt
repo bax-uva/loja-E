@@ -1,0 +1,7 @@
+RESOLVER
+deixar código acessível
+adicionar informações técnicas
+flex nas caixas de texto não está funcionando
+
+
+RESOLVIDO
