@@ -195,6 +195,10 @@ footer {
 
 /* terceira quebra */
 @media screen and (min-width:650px) {
+  .first-box {
+    margin-left: 2em;
+  }
+
   h1 {
     font-size: 2em;
   }
