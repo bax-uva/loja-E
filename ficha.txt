@@ -1,9 +1,0 @@
-RESOLVER
-deixar código acessível
-flex nas caixas de texto não está funcionando
-talvez o header não tá dando leitura muito boa
-Acessibilidade: o email não dá leitura/scrolling horizontal é ruim?/
-
-coleção em negrito?
-
-RESOLVIDO
