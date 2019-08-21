@@ -1,2 +1,3 @@
 # loja-E
-loja virtual da Editora independente É
+pt - loja virtual da Editora independente É
+en - É website. É is an independent publisher in São Paulo, Brazil. 
